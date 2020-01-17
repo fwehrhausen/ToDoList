@@ -3,14 +3,15 @@
 namespace ToDoList\Repositories;
 
 use Plenty\Exceptions\ValidationException;
-use Plenty\Modules\Plugin\Database\Contracts\DataBase;
+use Plenty\Modules\Plugin\DataBase\Contracts\DataBase;
 use ToDoList\Contracts\ToDoRepositoryContract;
 use ToDoList\Models\ToDo;
 use ToDoList\Validators\ToDoValidator;
-use Plenty\Modules\Frontend\Service\AccountService;
+use Plenty\Modules\Frontend\Services\AccountService;
 
-class ToDoRepository implements ToDoRepositoryContract{
 
+class ToDoRepository implements ToDoRepositoryContract
+{
     /**
      * @var AccountService
      */

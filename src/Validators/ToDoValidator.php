@@ -1,5 +1,3 @@
-
-
 <?php
 
 namespace ToDoList\Validators;
@@ -16,3 +14,4 @@ class ToDoValidator extends Validator
         $this->addString('taskDescription', true);
     }
 }
+
