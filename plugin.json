@@ -1,6 +1,6 @@
 {
   "name":"ToDoList",
-  "description":"A simple To Do list",
+  "description":"Dies ist eine Plugin, welches eine ToDo-Liste zur Verfügung",
   "namespace":"ToDoList",
   "author":"Florian Wehrhausen",
   "type":"template",
