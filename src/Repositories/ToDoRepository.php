@@ -7,32 +7,18 @@ use Plenty\Modules\Plugin\DataBase\Contracts\DataBase;
 use ToDoList\Contracts\ToDoRepositoryContract;
 use ToDoList\Models\ToDo;
 use ToDoList\Validators\ToDoValidator;
-use Plenty\Modules\Frontend\Services\AccountService;
+//use Plenty\Modules\Frontend\Services\AccountService;
 
 
 class ToDoRepository implements ToDoRepositoryContract
 {
-    /**
-     * @var AccountService
-     */
-    private $accountService;
-
-    /**
-     * UserSession constructor.
-     * @param AccountService $accountService
-     */
-    public function __construct(AccountService $accountService)
-    {
-        $this->accountService = $accountService;
-    }
-
     /**
      * Get the current contact ID
      * @return int
      */
     public function getCurrentContactId(): int
     {
-        return $this->accountService->getAccountContactId();
+        return 0;
     }
 
     /**
